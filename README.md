@@ -14,7 +14,7 @@ Useful link: https://towardsdatascience.com/convolutional-neural-network-for-bre
   - Benign: 0
   - Malignant: 1
 - Dataset is split as train set + test set
-- Define and load ImageDataGenerator as setup data augmentation parameters
+- Define and load ImageDataGenerator, setup data augmentation parameters
 - Define and load pre-trained model InceptionResNetV2 + add additional trainable Conv2D and DNN layers
 - Train model and make classification on test set
-- Display metrics
+- Display metrics and evaluate model
